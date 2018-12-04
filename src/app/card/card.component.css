@@ -1,0 +1,38 @@
+.tile {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  grid-row: 2;
+  height: 85%;
+  justify-self: center;
+  width: 80%;
+  overflow: hidden;
+  margin-top: 40px;
+  transition: 300ms;
+  background: #ffc2e9
+}
+.tile img{
+  height: 300px;
+  object-fit: cover
+}
+
+.tile:hover {
+  transform: scale(1.05);
+}
+h1{
+  text-align: center;
+  color: #543e5c;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
