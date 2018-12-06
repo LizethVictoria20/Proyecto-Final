@@ -1,0 +1,29 @@
+img{
+  z-index:1
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 440px;
+    left: 700px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+}
+.centrado{
+    position:absolute;
+    top: 480px;
+    left: 700px;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+.boton{
+  position: absolute;
+  top: 500px;
+  left: 680px;
+}
