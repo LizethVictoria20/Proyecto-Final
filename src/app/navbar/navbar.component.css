@@ -3,3 +3,6 @@ img{
   height: 40px;
   width: 40px;
 }
+.navbar-link:after{
+  border-color: #ebc3d5
+}

@@ -1,5 +1,6 @@
 img{
-  z-index:1
+  height: 600px;
+  object-fit: cover
 }
 .contenedor{
     position: relative;
@@ -9,21 +10,21 @@ img{
 
 .texto-encima{
     position: absolute;
-    top: 440px;
-    left: 700px;
-    color: white;
+    top: 300px;
+    left: 1000px;
+    color: black;
     font-size: 25px;
     font-family: 'Kalam', cursive;
 }
 .centrado{
     position:absolute;
-    top: 480px;
-    left: 700px;
-    color: white;
+    top: 333px;
+    left: 1000px;
+    color: black;
     font-family: 'Kalam', cursive;
 }
 .boton{
   position: absolute;
-  top: 500px;
-  left: 680px;
+  top: 350px;
+  left: 980px;
 }
