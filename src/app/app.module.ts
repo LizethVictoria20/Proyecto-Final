@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BotoncamilaComponent } from './botoncamila/botoncamila.component';
+import { MenuComponent } from './menu/menu.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -10,6 +13,9 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
+    BotoncamilaComponent,
+    MenuComponent,
+    NavbarComponent,
 
 
 
