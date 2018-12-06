@@ -20,7 +20,7 @@ export class AppComponent {
       {name:'Puppiesmini', url:'https://instagram.feoh1-1.fna.fbcdn.net/vp/5187ac2b496694929ccdfae85f9c2653/5C9F42CF/t51.2885-15/e35/42141247_687547578290574_3465667924487737609_n.jpg', precio:'Precio $1.900.000'},
       {name:'Chihuahua', url:'https://instagram.feoh1-1.fna.fbcdn.net/vp/1c2263cd4438a1f1e3566f21b83907ba/5CA75899/t51.2885-15/e35/36592912_174690713405625_1311563766726393856_n.jpg', precio:'Precio $1.700.000'},
       {name:'Schauzer', url:'https://instagram.feoh1-1.fna.fbcdn.net/vp/4bedc030a90c6f9218c1ac330a35f3a5/5C97F6FD/t51.2885-15/e35/30591628_2147547728801387_7133507720182759424_n.jpg', precio:'Precio $1.500.00'},
-      {name:'BullDog Ingles', url:'https://instagram.feoh1-1.fna.fbcdn.net/vp/1c9d2115978a119792d8a30d447cb921/5C8D1F9A/t51.2885-15/e35/26158412_138612903474393_7082649109760311296_n.jpg', precio:'<precio $1.800.000'}
+      {name:'BullDog Ingles', url:'https://instagram.feoh1-1.fna.fbcdn.net/vp/1c9d2115978a119792d8a30d447cb921/5C8D1F9A/t51.2885-15/e35/26158412_138612903474393_7082649109760311296_n.jpg', precio:'precio $1.800.000'}
     ],
 
   }

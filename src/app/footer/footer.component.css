@@ -3,12 +3,9 @@
 }
 
 footer{
-    background-color: #cca2e1;
-    color: white;
-}
-
-strong{
-    color: white;
+    background-color: #ffc2e9;
+    color: black;
+    margin-top: 40px
 }
 
 h1, h2{
@@ -19,6 +16,7 @@ h1, h2{
 h1{
     font-size: 30px;
     padding: 30px;
+    margin-top: 40px
 }
 h2{
     font-size: 20px;
