@@ -3,20 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
-import { ButtonComponent } from './button/button.component';
-import { RazasComponent } from './razas/razas.component';
-import { InformacionComponent } from './informacion/informacion.component';
-import { CardInfoComponent } from './card-info/card-info.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent,
-    ButtonComponent,
-    RazasComponent,
-    InformacionComponent,
-    CardInfoComponent
+
+
+
   ],
   imports: [
     BrowserModule,
