@@ -20,9 +20,11 @@
 }
 h1{
   text-align: center;
-  color: #543e5c;
   font-size: 30px;
   font-family: 'Kalam', cursive;
+}
+p{
+  text-align: center
 }
 
 

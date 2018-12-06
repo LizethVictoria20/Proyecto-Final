@@ -1,15 +1,11 @@
 button{
   border-radius: 5px;
-  background: #cca2e1;
+  background: #ffffff;
   width: 150px;
   height: 40px;
   font-size: 20px;
   border: 1px solid #cca2e1;
-  color: #543e5c;
   margin-left: 70px;
   margin-top: 10px;
   margin-bottom: 20px;
-
-
-
 }
