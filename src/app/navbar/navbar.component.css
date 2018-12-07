@@ -6,3 +6,11 @@ img{
 .navbar-link:after{
   border-color: #ebc3d5
 }
+.navbar-link:hover{
+  color: #ebc3d5
+
+}
+.navbar-item:hover{
+  color: #ebc3d5
+}
+

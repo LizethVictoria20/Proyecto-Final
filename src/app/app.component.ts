@@ -24,12 +24,4 @@ export class AppComponent {
     ],
 
   }
-  descripcion2 = {
-
-    razas: [
-      {name:'BullDog Francés', describe:'El bulldog francés es una raza canina originaria de Francia y establecida como tal a finales del .... Debido a su adaptabilidad, tranquilidad y a que es poco ladrador, es una raza ideal para la vida en un apartamento o piso'  },
-      {name:'', info:'' },
-      {name:'', info:'' }
-    ]
-  }
 }
