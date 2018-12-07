@@ -12,13 +12,17 @@ import { BotoncamilaComponent } from 'src/app/botoncamila/botoncamila.component'
 import { MenuComponent } from 'src/app/menu/menu.component';
 import { NavbarComponent } from 'src/app/navbar/navbar.component';
 import { Routes, RouterModule } from '@angular/router';
-const appRoutes : Routes = [
+import { CompraComponent } from './compra/compra.component';
 
+
+const appRoutes : Routes = [
   { path:'footer', component: FooterComponent },
-  { path:'razas', component: RazasComponent },
   { path:'navbar', component: NavbarComponent },
   { path:'menu', component: MenuComponent },
   { path:'card', component: CardComponent },
+  { path:'compra', component: CompraComponent },
+
+
 ]
 
 
@@ -34,6 +38,7 @@ const appRoutes : Routes = [
     BotoncamilaComponent,
     MenuComponent,
     NavbarComponent,
+    CompraComponent,
   ],
 
   imports: [
