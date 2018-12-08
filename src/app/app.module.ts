@@ -21,6 +21,7 @@ const appRoutes : Routes = [
   { path:'menu', component: MenuComponent },
   { path:'card', component: CardComponent },
   { path:'compra', component: CompraComponent },
+  { path:'compra', component: BotoncamilaComponent },
 
 
 ]
