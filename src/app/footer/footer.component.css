@@ -1,11 +1,6 @@
-.nosotros, .contacto{
+.nosotros{
     background-color: #fff0f8;
-}
 
-footer{
-    background-color: #ffc2e9;
-    color: black;
-    margin-top: 40px
 }
 
 h1, h2{
@@ -30,30 +25,7 @@ p{
     padding-top: 15px;
 }
 
-img, .text-contacto{
-   display: inline-block;
-}
 
-.contacto-title{
-    text-align: left;
-}
 
-.social-link{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    background-size: 50px 50px;
-}
 
-.social-link.insta{
-    background-image: url("https://img.icons8.com/office/40/000000/instagram-new.png");
-}
 
-.social-link.face{
-    background-image: url("https://img.icons8.com/office/40/000000/facebook.png");
-}
-
-.social-link.wpp{
-    background-image: url("https://img.icons8.com/office/40/000000/whatsapp.png");
-}

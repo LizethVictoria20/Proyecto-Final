@@ -13,17 +13,11 @@ import { MenuComponent } from 'src/app/menu/menu.component';
 import { NavbarComponent } from 'src/app/navbar/navbar.component';
 import { Routes, RouterModule } from '@angular/router';
 import { CompraComponent } from './compra/compra.component';
+import { ContactComponent } from './contact/contact.component';
 
 
-const appRoutes : Routes = [
-  { path:'footer', component: FooterComponent },
-  { path:'navbar', component: NavbarComponent },
-  { path:'menu', component: MenuComponent },
-  { path:'card', component: CardComponent },
+const rutas : Routes = [
   { path:'compra', component: CompraComponent },
-  { path:'compra', component: BotoncamilaComponent },
-
-
 ]
 
 
@@ -40,12 +34,13 @@ const appRoutes : Routes = [
     MenuComponent,
     NavbarComponent,
     CompraComponent,
+    ContactComponent,
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(rutas)
   ],
 
   providers: [],
