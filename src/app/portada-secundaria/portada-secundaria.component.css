@@ -1,0 +1,10 @@
+img{
+  height: 350px;
+  object-fit: cover
+}
+h2{
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px
+}
