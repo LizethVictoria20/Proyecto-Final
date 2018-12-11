@@ -9,17 +9,22 @@ import { ButtonComponent } from './button/button.component';
 import { RazasComponent } from './razas/razas.component';
 import { FooterComponent } from './footer/footer.component';
 import { BotoncamilaComponent } from 'src/app/botoncamila/botoncamila.component';
-import { MenuComponent } from 'src/app/menu/menu.component';
 import { NavbarComponent } from 'src/app/navbar/navbar.component';
 import { Routes, RouterModule } from '@angular/router';
 import { CompraComponent } from './compra/compra.component';
 import { ContactComponent } from './contact/contact.component';
 import { DetallesComponent } from './detalles/detalles.component';
+import { PortadaSecundariaComponent } from './portada-secundaria/portada-secundaria.component';
+import { PortadaComponent } from './portada/portada.component';
 
 
 const rutas : Routes = [
+  { path:'', component: PortadaComponent },
   { path:'compra', component: CompraComponent },
   { path:'detalles', component: DetallesComponent },
+
+
+
 ]
 
 
@@ -33,11 +38,12 @@ const rutas : Routes = [
     RazasComponent,
     FooterComponent,
     BotoncamilaComponent,
-    MenuComponent,
     NavbarComponent,
     CompraComponent,
     ContactComponent,
     DetallesComponent,
+    PortadaComponent,
+    PortadaSecundariaComponent,
   ],
 
   imports: [
