@@ -1,0 +1,28 @@
+.container{
+  margin-top: 70px
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  padding-top: 40px;
+}
+p{
+  margin-left: 120px;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 150px
+}
+.card{
+  margin-top: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+
+}
+img{
+  border-radius: 6px;
+}
+.boton{
+  margin-left: 120px;
+
+}

@@ -14,10 +14,12 @@ import { NavbarComponent } from 'src/app/navbar/navbar.component';
 import { Routes, RouterModule } from '@angular/router';
 import { CompraComponent } from './compra/compra.component';
 import { ContactComponent } from './contact/contact.component';
+import { DetallesComponent } from './detalles/detalles.component';
 
 
 const rutas : Routes = [
   { path:'compra', component: CompraComponent },
+  { path:'detalles', component: DetallesComponent },
 ]
 
 
@@ -35,6 +37,7 @@ const rutas : Routes = [
     NavbarComponent,
     CompraComponent,
     ContactComponent,
+    DetallesComponent,
   ],
 
   imports: [
