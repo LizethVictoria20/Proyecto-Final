@@ -1,28 +1,38 @@
 .container{
   margin-top: 70px
 }
-.title{
+h2{
   text-align: center;
   font-size: 30px;
   font-family: 'Kalam', cursive;
   padding-top: 40px;
 }
 p{
-  margin-left: 120px;
   font-family: 'Nanum Gothic', sans-serif;
   margin-top: 50px;
-  margin-bottom: 150px
+  margin-bottom: 150px;
+  text-align: center
 }
-.card{
+.card, img{
   margin-top: 12px;
   border-radius: 6px;
   margin-bottom: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  height: 460px;
 
 }
 img{
-  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  height: 445px;
 }
+
+
 .boton{
-  margin-left: 120px;
+  margin-left: 85px;
+
+}
+
+.column{
+  width: 60%;
 
 }
