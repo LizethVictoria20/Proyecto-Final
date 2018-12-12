@@ -21,14 +21,8 @@ import { PortadaComponent } from './portada/portada.component';
 const rutas : Routes = [
   { path:'', component: PortadaComponent },
   { path:'compra', component: CompraComponent },
-  { path:'detalles', component: DetallesComponent },
-
-
-
+  { path:'detalles/:razaId', component: DetallesComponent },
 ]
-
-
-
 
 @NgModule({
   declarations: [
