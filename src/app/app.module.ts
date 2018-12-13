@@ -21,6 +21,7 @@ import { Routes, RouterModule } from '@angular/router';
 const rutas : Routes = [
   { path:'', component: PortadaComponent },
   { path:'compra', component: CompraComponent },
+  { path:'back', component: CompraComponent },
   { path:'detalles/:razaId', component: DetallesComponent },
 ]
 

@@ -1,13 +1,15 @@
 <app-portada-secundaria title='Información de los cachorros' ></app-portada-secundaria>
-<div class="container" >
+ <a href="/back"><img  class="icon"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADFwAAAxcBwpsE1QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHNSURBVGiB7Zi7TsMwFIb/EwbYUZvyJu0C4hl4Bq4SsHARUAauEgIJBkBCvAczC3UXBiZeAFHHFTsD5LAUKU1bktgpdSR/44nl/J+U+HIAh8PhcDgsQD29T4/y/V4ek7SbwT487yCPuXQxFlFC1pn5MI8wJhiJKCHrAI5yymKEtogScg+WSACaIh2J45yzGJFZRAm5C8skgIwiHYmTIWUxIrWIasgdWCoBpBRRDbkDwumww5hASQOCZmuFmK5TjH1h0EY+sfrjIfwKyXv1q34Qf/ZnuEAEywS+SRr3z3yCeK5cnXqIFgd+WoEIliyUAIAJwNuOF/uKqKZcJ/At7JMAAFDIk/Faj4gScg2MS1gqMYguESXkGoArFEwCiIgoIVdRUAkgIsJE4yioBBAR8av+BQELAHiEebTp+kdKtco9AYsooEzPqlVUmb77SKlWuWeirf8Okxb26CNeG7iz+1X/gok2hxtJi08gPIsXUxwagw1iPk+en56Jvhf1sqUnxNhb5kPjL20h5xm4Sxj/WK5VZnUDmpLqPlKEBSD1DdF2mUx3dptlMndRbJXR6mvZKKPdabRNxqj3a5OMcTfeJplcaDdaM6PO4HA4HA6HLj/uJoqKQdf0lAAAAABJRU5ErkJggg=="></a>
+  <a href="/back"> <p class="atras" >Volver a cachorros</p></a>
+ <div class="container" >
   <div class="columns">
     <div class="column is-half">
-      <img [src]="raza.url">
+      <img [src]="raza.url" class="imagen">
     </div>
     <div class="column card">
       <h2>{{ raza.name }}</h2>
       <p>{{ raza.descripcion }}</p>
-      <p>{{raza.precio}}</p>
+      <p class="precio">{{raza.precio}}</p>
       <a class="boton" ><app-button button='Comprar' ></app-button></a>
     </div>
   </div>
